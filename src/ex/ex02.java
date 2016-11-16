@@ -15,22 +15,21 @@ public class ex02 {
 	    	}
 			 System.out.print(std(data, n));
 		}
-	public static float std(float []data,float n){
+	public static float std(int[] data,float n){
 		
-		double sum=0,a=0,b=0,c=0;
-		
+		float sum=0,a=0,b=0,c=0;		
 		for(int v=0;v<n;v++){
     		
-    		b+=Math.pow((float)data[v]-(float)var(n), 2)/n;
-    		c=Math.sqrt(b);
+    		b+=Math.pow(data[v]-var(data, n), 2)/n;
+    		c=(float)Math.sqrt(b);
     	}
 		
 		
 		
 		
-		return 0;
+		return c;
 	}
-		 public static float var(float []data,float n) {
+		 public static float var(int []data,float n) {
 		    	Scanner scn = new Scanner(System.in);
 		    	float sum=0,a=0,b=0;
 		    	for(int i=0;i<n;i++){

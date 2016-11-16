@@ -1,6 +1,7 @@
 package ex;
 /*
  * Date: 2016/11/14
+
  * Author: 105021059 ¤ý«T÷g
  */
 
@@ -13,7 +14,6 @@ public class ex01 {
 		int n=scn.nextInt();
 		
 		 System.out.print(var(n));
-		
 	}
 	 public static float var(int n) {
 	    	Scanner scn = new Scanner(System.in);

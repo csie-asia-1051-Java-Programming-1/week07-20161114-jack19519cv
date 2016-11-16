@@ -13,7 +13,6 @@ public class ex04 {
 		  System.out.print(fun(n));
 			}
 		  public static int fun(int x){
-			  
 			  if(x==1){
 				  return 1;
 			  }else{
