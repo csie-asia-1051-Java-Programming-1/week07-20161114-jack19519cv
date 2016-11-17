@@ -11,7 +11,6 @@ public class ex02 {
 			float sum=0,a=0,b=0;
 	    	for(int j=0;j<n;j++){
 	    		data[j]=scn.nextInt();
-	    		
 	    	}
 			 System.out.print(std(data, n));
 		}

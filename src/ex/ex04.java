@@ -16,7 +16,6 @@ public class ex04 {
 			  if(x==1){
 				  return 1;
 			  }else{
-				  
 				  return x*fun(x-1);
 			  }
 			  

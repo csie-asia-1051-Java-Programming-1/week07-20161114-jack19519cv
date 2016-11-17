@@ -14,7 +14,6 @@ public class ex03 {
     	}
     	System.out.println(var2(data, n));
 		 System.out.println(std2(data, n));
-		 
 	}
 public static float std2(int[][] data,float n){
 		float sum=0,a=0,b=0,c=0;
