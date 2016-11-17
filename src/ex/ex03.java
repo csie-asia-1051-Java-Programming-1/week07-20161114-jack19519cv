@@ -1,5 +1,10 @@
 package ex;
+/*
+ * Date: 2016/11/14
 
+
+ * Author: 105021059 ¤ý«T÷g
+ */
 import java.util.Scanner;
 
 public class ex03 {
